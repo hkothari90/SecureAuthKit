@@ -1,0 +1,64 @@
+# macOS and Xcode related files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode specific files
+xcuserdata/
+*.xcworkspace/
+*.xccheckout
+*.xcscmblueprint
+
+# Derived Data and Index
+DerivedData/
+.idea/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# CocoaPods
+Pods/
+*.lock
+*.xcconfig
+
+# Carthage
+Carthage/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/report.json
+
+# Archives
+*.ipa
+*.xcarchive
+
+# Build artifacts
+*.o
+*.d
+*.bin
+*.crash
+*.profdata
+*.xcresult
+
+# Simulator Generated Files
+CoreSimulator/
+
+# Test related files
+*.xctest
+*.xctestplan
+
+# Git
+.git/
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# Ignore Firebase and GoogleService files
+GoogleService-Info.plist
